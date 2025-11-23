@@ -1,4 +1,4 @@
-# Python Password Manager 🔐
+# Python Password Manager
 
 Basit ama mantığı güçlü bir **şifre yöneticisi (Password Manager)**.  
 Tamamen Python ile yazıldı ve şu özellikleri destekliyor:
@@ -13,25 +13,25 @@ Bu proje, hem *Python temellerini* hem de *mini bir gerçek uygulamanın mantı�
 
 ---
 
-## 🧱 Özellikler
+##  Özellikler
 
-- 📂 **CRUD İşlemleri**
+  - **CRUD İşlemleri**
   - Yeni şifre kaydı ekleme
   - Kayıtlı şifreleri listeleme
   - Site veya kullanıcı adına göre arama
   - ID’ye göre silme
   - ID’ye göre kayıt güncelleme
 
-- 🕶 **Şifreleri Maskeli Gösterme**
+  - **Şifreleri Maskeli Gösterme**
   - Listeleme ve arama ekranlarında şifreler `*****` şeklinde gösterilir.
   - Gerçek şifreler sadece şifreli dosyada tutulur.
 
-- 🔐 **AES ile Şifrelenmiş Kayıtlar**
+  - **AES ile Şifrelenmiş Kayıtlar**
   - Kullanıcı verileri düz `passwords.json` yerine `passwords.enc` isimli **şifreli dosyada** saklanır.
   - Şifreleme için [`cryptography`](https://pypi.org/project/cryptography/) kütüphanesi ve `Fernet` kullanılır.
   - Uygulama ilk çalıştığında bir `secret.key` oluşturur ve bu key ile tüm veriler şifrelenir/çözülür.
 
-- ⚙️ **Otomatik Güçlü Şifre Üretici**
+  - **Otomatik Güçlü Şifre Üretici**
   - Kullanıcı yeni kayıt eklerken:
     - İster kendi şifresini yazar
     - İster otomatik güçlü şifre üretilmesini seçer
@@ -39,7 +39,7 @@ Bu proje, hem *Python temellerini* hem de *mini bir gerçek uygulamanın mantı�
 
 ---
 
-## 📁 Proje Yapısı
+##  Proje Yapısı
 
 ```text
 python-password-manager/
@@ -53,7 +53,7 @@ python-password-manager/
 └── README.md
 
 
-🚀 Kurulum
+ Kurulum
 
 git clone https://github.com/Woyz01/python-password-manager.git
 cd python-password-manager
