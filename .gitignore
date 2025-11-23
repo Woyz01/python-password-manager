@@ -1,0 +1,5 @@
+data/passwords.enc
+data/secret.key
+*.pyc
+__pycache__/
+.venv/
